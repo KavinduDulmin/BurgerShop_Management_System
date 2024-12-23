@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1AC0D9AE-B4A7-4570-8878-A3F60E1E0517}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>burgerShopManagementSystem</RootNamespace>
+    <AssemblyName>burgerShopManagementSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConnectionManager.cs" />
+    <Compile Include="dataGridViewRow.cs" />
+    <Compile Include="dataStaff.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dataStaff.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DGVPrinter.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form31.cs" />
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="_NewBurgerShop_DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_NewBurgerShop_DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_NewBurgerShop_DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_NewBurgerShop_DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_NewBurgerShop_DataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_NewBurgerShop_DataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_NewBurgerShop_DataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_NewBurgerShop_DataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_NewBurgerShop_DataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_NewBurgerShop_DataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_NewBurgerShop_DataSet21.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_NewBurgerShop_DataSet21.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_NewBurgerShop_DataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_NewBurgerShop_DataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_NewBurgerShop_DataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_NewBurgerShop_DataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_NewBurgerShop_DataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_NewBurgerShop_DataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_NewBurgerShop_DataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_NewBurgerShop_DataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_NewBurgerShop_DataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_NewBurgerShop_DataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_NewBurgerShop_DataSet81.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_NewBurgerShop_DataSet81.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_NewBurgerShop_DataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_NewBurgerShop_DataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_productdata_DataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_productdata_DataSet7.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="dataStaff.xsc">
+      <DependentUpon>dataStaff.xsd</DependentUpon>
+    </None>
+    <None Include="dataStaff.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dataStaff.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dataStaff.xss">
+      <DependentUpon>dataStaff.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="_NewBurgerShop_DataSet.xsc">
+      <DependentUpon>_NewBurgerShop_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="_NewBurgerShop_DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_NewBurgerShop_DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_NewBurgerShop_DataSet.xss">
+      <DependentUpon>_NewBurgerShop_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="_NewBurgerShop_DataSet1.xsc">
+      <DependentUpon>_NewBurgerShop_DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="_NewBurgerShop_DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_NewBurgerShop_DataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_NewBurgerShop_DataSet1.xss">
+      <DependentUpon>_NewBurgerShop_DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="_NewBurgerShop_DataSet10.xsc">
+      <DependentUpon>_NewBurgerShop_DataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="_NewBurgerShop_DataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_NewBurgerShop_DataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_NewBurgerShop_DataSet10.xss">
+      <DependentUpon>_NewBurgerShop_DataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="_NewBurgerShop_DataSet11.xsc">
+      <DependentUpon>_NewBurgerShop_DataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="_NewBurgerShop_DataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_NewBurgerShop_DataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_NewBurgerShop_DataSet11.xss">
+      <DependentUpon>_NewBurgerShop_DataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="_NewBurgerShop_DataSet12.xsc">
+      <DependentUpon>_NewBurgerShop_DataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="_NewBurgerShop_DataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_NewBurgerShop_DataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_NewBurgerShop_DataSet12.xss">
+      <DependentUpon>_NewBurgerShop_DataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="_NewBurgerShop_DataSet21.xsc">
+      <DependentUpon>_NewBurgerShop_DataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="_NewBurgerShop_DataSet21.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_NewBurgerShop_DataSet21.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_NewBurgerShop_DataSet21.xss">
+      <DependentUpon>_NewBurgerShop_DataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="_NewBurgerShop_DataSet3.xsc">
+      <DependentUpon>_NewBurgerShop_DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="_NewBurgerShop_DataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_NewBurgerShop_DataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_NewBurgerShop_DataSet3.xss">
+      <DependentUpon>_NewBurgerShop_DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="_NewBurgerShop_DataSet4.xsc">
+      <DependentUpon>_NewBurgerShop_DataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="_NewBurgerShop_DataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_NewBurgerShop_DataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_NewBurgerShop_DataSet4.xss">
+      <DependentUpon>_NewBurgerShop_DataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="_NewBurgerShop_DataSet5.xsc">
+      <DependentUpon>_NewBurgerShop_DataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="_NewBurgerShop_DataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_NewBurgerShop_DataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_NewBurgerShop_DataSet5.xss">
+      <DependentUpon>_NewBurgerShop_DataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="_NewBurgerShop_DataSet6.xsc">
+      <DependentUpon>_NewBurgerShop_DataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="_NewBurgerShop_DataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_NewBurgerShop_DataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_NewBurgerShop_DataSet6.xss">
+      <DependentUpon>_NewBurgerShop_DataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="_NewBurgerShop_DataSet7.xsc">
+      <DependentUpon>_NewBurgerShop_DataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="_NewBurgerShop_DataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_NewBurgerShop_DataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_NewBurgerShop_DataSet7.xss">
+      <DependentUpon>_NewBurgerShop_DataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="_NewBurgerShop_DataSet81.xsc">
+      <DependentUpon>_NewBurgerShop_DataSet81.xsd</DependentUpon>
+    </None>
+    <None Include="_NewBurgerShop_DataSet81.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_NewBurgerShop_DataSet81.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_NewBurgerShop_DataSet81.xss">
+      <DependentUpon>_NewBurgerShop_DataSet81.xsd</DependentUpon>
+    </None>
+    <None Include="_NewBurgerShop_DataSet9.xsc">
+      <DependentUpon>_NewBurgerShop_DataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="_NewBurgerShop_DataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_NewBurgerShop_DataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_NewBurgerShop_DataSet9.xss">
+      <DependentUpon>_NewBurgerShop_DataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="_productdata_DataSet7.xsc">
+      <DependentUpon>_productdata_DataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="_productdata_DataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_productdata_DataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_productdata_DataSet7.xss">
+      <DependentUpon>_productdata_DataSet7.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\burger-logo-fast-food-logo-logo-vector-35165988.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\burger-logo-fast-food-logo-logo-vector-351659881.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,13 @@
+C:\Users\kavin\Desktop\project\burgerShopManagementSystem\burgerShopManagementSystem\bin\Debug\burgerShopManagementSystem.exe.config
+C:\Users\kavin\Desktop\project\burgerShopManagementSystem\burgerShopManagementSystem\bin\Debug\burgerShopManagementSystem.exe
+C:\Users\kavin\Desktop\project\burgerShopManagementSystem\burgerShopManagementSystem\bin\Debug\burgerShopManagementSystem.pdb
+C:\Users\kavin\Desktop\project\burgerShopManagementSystem\burgerShopManagementSystem\obj\Debug\burgerShopManagementSystem.csproj.AssemblyReference.cache
+C:\Users\kavin\Desktop\project\burgerShopManagementSystem\burgerShopManagementSystem\obj\Debug\burgerShopManagementSystem.Form1.resources
+C:\Users\kavin\Desktop\project\burgerShopManagementSystem\burgerShopManagementSystem\obj\Debug\burgerShopManagementSystem.Properties.Resources.resources
+C:\Users\kavin\Desktop\project\burgerShopManagementSystem\burgerShopManagementSystem\obj\Debug\burgerShopManagementSystem.csproj.GenerateResource.cache
+C:\Users\kavin\Desktop\project\burgerShopManagementSystem\burgerShopManagementSystem\obj\Debug\burgerShopManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\kavin\Desktop\project\burgerShopManagementSystem\burgerShopManagementSystem\obj\Debug\burgerShopManagementSystem.exe
+C:\Users\kavin\Desktop\project\burgerShopManagementSystem\burgerShopManagementSystem\obj\Debug\burgerShopManagementSystem.pdb
+C:\Users\kavin\Desktop\project\burgerShopManagementSystem\burgerShopManagementSystem\obj\Debug\burgerShopManagementSystem.Form2.resources
+C:\Users\kavin\Desktop\project\burgerShopManagementSystem\burgerShopManagementSystem\obj\Debug\burgerShopManagementSystem.frmLogin.resources
+C:\Users\kavin\Desktop\project\burgerShopManagementSystem\burgerShopManagementSystem\obj\Debug\burgerShopManagementSystem.Form4.resources
